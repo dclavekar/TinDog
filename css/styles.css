@@ -1,0 +1,233 @@
+#title{
+    background-color: #ff4c68;
+}
+.navbar
+{
+    padding-bottom: 50px;
+}
+.navbar-brand
+{
+    margin:2px 2px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-link
+{
+    font-size: 1.25rem;
+}
+.titlecontent
+{
+    padding-left: 10px;;
+}
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-size:5rem;
+    color: white;
+    margin-top: 40px;
+}
+.download-btn
+{
+    margin:3% 2%;
+    font-size: 2rem;;
+}
+.dogphone-div
+{
+    text-align: center;
+}
+.dogphone
+{
+    /* margin: 0px;; */
+    /* padding:20%; */
+    transform: rotate(25deg);
+    width:35%
+   
+    /* position:absolute; */
+    
+}
+
+/* features row */
+#features
+{
+    background-color: white;
+    padding:200px;
+    position: relative;
+    z-index: 1;
+   
+}
+.feature-content
+{
+    text-align: center;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+p{
+    color:#8f8f8f ;
+    /* text-align: center; */
+    font-size: 1.5rem;
+}
+.icon
+{
+    color: #ef8172;
+    /* align-content: center; */
+    size:100px;
+    margin-bottom: 10px;
+}
+.icon:hover
+{
+    color: crimson;
+}
+/* testimonilas section */
+#testimonials
+{
+    background-color:#ff4c68 ;
+    text-align: center;
+    
+
+}
+.testimonial-image
+{
+    border-radius: 100%;
+    width:10%;
+    margin:2% ;
+}
+#testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: white;
+    line-height: 1.5;
+
+}
+em{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: white;
+    
+}
+.carousel-item
+{
+    padding:80px;
+}
+
+/* press section */
+#press
+{
+    
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding:20px;
+    
+
+}
+.press-img
+{
+    
+    width:10%;
+    margin:100px;
+    
+}
+/* pricing cards */
+#pricing
+{
+    padding:100px;
+    text-align: center;
+  
+}
+ h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    
+    line-height: 1.5;
+ }
+ #pricing p{
+     font-size: 2rem;
+ }
+.card-button
+{
+    width: 100%;
+}
+.card{
+    margin:2.5rem;
+}
+/* call to action */
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta .btn
+{
+    margin:20px 60px 10px 0;
+}
+#footer
+{
+    background-color: rgba(169, 169, 169, 0.158);
+    text-align: center;
+    padding:10px;
+}
+#footer .icon{
+    color: black;
+    font-size: 30px;
+    margin:10px 20px 10px 20px;
+}
+#footer .icon :hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px)
+{
+    #title
+    {
+        text-align: center;
+        padding-bottom: 20px;;
+    }
+    .dogphone{
+        position:static;
+        transform: rotate(0);
+    }
+    .feature-content
+    {
+        padding:10px 30px 40px 10px;
+        margin:10px 30px 40px 10px;
+    }
+    #testimonials  h2
+    {
+        font-size: 2.5rem;
+    }
+    .testimonial-image{
+        width:30%;
+        
+    }
+    .press-img
+    {
+        width:25%
+    }
+    .card{
+        margin:auto;
+        margin-bottom: 20px;;
+    }
+
+}
